@@ -1,0 +1,80 @@
+.signin-page{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.signin-body{
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(20%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.signin-header{
+    margin-bottom: 65px;
+    font: bold 21px / 29px "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.input-body{
+    margin: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-label{
+    display: block;
+    font: bold 15px / 24px "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #0d0c22;
+}
+
+.input-field{
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    font: 14px / 24px "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    &:hover{
+        box-shadow: 0 0 15px rgba(198,224,247,0.9);
+    }
+
+    &:focus{
+        outline: none;
+        box-shadow: 0 0 15px rgba(198,224,247,0.9);
+    }
+}
+
+
+.button-body{
+    width: 96%;
+    height: 56px;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+    font: bold 15px / 24px "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .signin-body{
+        width: 80%;
+    }
+}

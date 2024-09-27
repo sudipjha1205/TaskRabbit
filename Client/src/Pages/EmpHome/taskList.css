@@ -1,0 +1,54 @@
+.task-table-container{
+    margin-left: 50px;
+    margin-right: 90px;
+}
+
+.tasks-list-header{
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 25px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+table { 
+    margin-left: 20px;
+}
+
+tbody tr{
+    vertical-align: middle;
+    height: 70px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: white;
+        box-shadow: 0 0 5px rgba(68, 70, 71, 0.3);
+    }
+}
+
+td,th{
+    text-align: center;
+}
+
+td:nth-child(1),th:nth-child(1){
+    width: 10%;
+    text-align: start;
+    padding-left: 53px;
+}
+
+td:nth-child(2){
+    width: 15%;
+}
+
+td:nth-child(3){
+    width: 35%;
+}
+
+td:nth-child(5){
+    width: 10%;
+}
+
+td:last-child,td:last-child{
+    width: 15%;
+    padding-right: 10px;
+}
